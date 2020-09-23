@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Raj",
+    "phone_number": "98765544321",
+    "address": "World Cross Centerr",
+    "website": "https://www.google.com",
+    "language": "English",
+    "location": {
+        "lat": -36.9999,
+        "lng": -32.8888
+    },
+    "types": [
+        "shop",
+        "shoe type"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 06:53:48 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "35dce2b27f602c90c8ce9be44d09e4c7",
+    "scope": "APP",
+    "reference": "606d7a2baaf940e954443458539f1351606d7a2baaf940e954443458539f1351",
+    "id": "606d7a2baaf940e954443458539f1351"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=35dce2b27f602c90c8ce9be44d09e4c7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=35dce2b27f602c90c8ce9be44d09e4c7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 06:53:50 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 232
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-36.9999",
+        "longitude": "-32.8888"
+    },
+    "accuracy": "50",
+    "name": "Raj",
+    "phone_number": "98765544321",
+    "address": "World Cross Centerr",
+    "types": "shop,shoe type",
+    "website": "https://www.google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Saurabh",
+    "phone_number": "98765544321",
+    "address": "Thane",
+    "website": "https://www.google.com",
+    "language": "Marathi",
+    "location": {
+        "lat": -36.9999,
+        "lng": -32.8888
+    },
+    "types": [
+        "shop",
+        "shoe type"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 06:53:52 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f926d904eade19b611b56a8d3d66a646",
+    "scope": "APP",
+    "reference": "07e1c30dde9bc7be35bf45f45326a27b07e1c30dde9bc7be35bf45f45326a27b",
+    "id": "07e1c30dde9bc7be35bf45f45326a27b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f926d904eade19b611b56a8d3d66a646
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f926d904eade19b611b56a8d3d66a646
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 06:53:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-36.9999",
+        "longitude": "-32.8888"
+    },
+    "accuracy": "50",
+    "name": "Saurabh",
+    "phone_number": "98765544321",
+    "address": "Thane",
+    "types": "shop,shoe type",
+    "website": "https://www.google.com",
+    "language": "Marathi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f926d904eade19b611b56a8d3d66a646"
+}
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 06:53:56 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
